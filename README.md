@@ -3,7 +3,7 @@
 
 A heritage café management and point-of-sale (POS) web application designed for Hogwarts Cafe. Built with React, Vite, and custom CSS design tokens inspired by the Great Hall, antique English libraries, and heritage British hospitality systems.
 
-**Live Deployment:** [https://expediti.github.io/hogwarts-cafe/](https://expediti.github.io/hogwarts-cafe/)  
+**Live Deployment:** [https://hogwarts-cafe.expeditionthe0.workers.dev/](https://hogwarts-cafe.expeditionthe0.workers.dev/)  
 **Repository:** [https://github.com/expediti/hogwarts-cafe](https://github.com/expediti/hogwarts-cafe)
 
 ---
@@ -89,7 +89,7 @@ Hogwarts Cafe combines the grandeur of the Hogwarts Great Hall with the intimate
 - **Styling:** Custom CSS Design Tokens & Media Queries (No Tailwind)
 - **Icons:** `lucide-react`
 - **Data Persistence:** Versioned browser `localStorage`
-- **CI/CD Deployment:** GitHub Actions (`.github/workflows/deploy.yml`) ➔ GitHub Pages
+- **CI/CD Deployment:** Cloudflare Workers (`wrangler.jsonc`) & GitHub Actions (`.github/workflows/deploy.yml`)
 
 ---
 
